@@ -4,30 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eCommerce</title>
+    <title>E-Commerce</title>
     <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <header>
+    <header class="navbar">
         <nav>
-            <a href="">eCommerce</a>
-            <ul>
-                <li>HOME</li>
-                <li>PRODUCTS</li>
-                <li>ABOUT</li>
-                <li>CONTACT</li>
+            <ul class="navpoints">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
+            <div class="title">
+                <h2>CARA</h2>
+                <img src="./assets/icons8-pottery-96.png" alt="pottery icon">
+                <h2>CARA</h2>
+            </div>
+            <div class="searchbar">
+                <input type="text">
+                <img src="./assets/1200px-Google_Magnifying_Glass.svg.png" style="width: 20x; height: 20px;"
+                <h3>CART (0)</h3>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="home">
-            <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="hands shaping pottery clay">
-            <h1>CERAMICS<br>CRAFTED BY<br>HAND...</h1>
-            <h1>...FROM THE<br>GROUND UP</h1>
+        <section id="home">
+            <div class="home_1">
+                <h1 >CERAMICS<br>CRAFTED BY<br>HAND...</h1>
+            </div>
+            <p><br></p>
+            <div class="home_2">
+                <h1 class="home_2">...FROM THE<br>GROUND UP</h1>
+            </div>
         </section>
-        <section class="about">
+        <br>
+        <br>
+        <section id="about">
             <h1>ABOUT US</h1>
-            <p>
+            <p class="about_us_1">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. 
@@ -36,10 +51,213 @@
                 tristique risus nec. Sagittis id consectetur purus ut faucibus. 
                 Elit duis tristique sollicitudin nibh sit amet commodo. 
             </p>
+            <p class="about_us_2">
+                Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue. 
+                Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique magna sit amet purus gravida quis. 
+                Velit euismod in pellentesque massa placerat. In ante metus dictum at tempor commodo. 
+                Libero nunc consequat interdum varius sit amet mattis. Egestas sed sed risus pretium quam vulputate dignissim. 
+                Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.
+            </p>
+            <p class="about_us_3">
+                Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. 
+                Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae purus
+            </p>
+            <img src="./assets/Vase_Dame_2048x2048.jpg" alt="flower in vase" style="width: 397px; height: 534px;">
+            <img class="flip" src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="plant in vase" style="width: 600px; height: 808px;">
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="products">
+            <h1>OUR PRODUCTS</h1>
+            <div class="product_1">
+                <a href="#products">
+                    <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="set of one big and two small bowls" style="width: 398px; height: 398px;">
+                </a>
+                <h2>MUNDO BOWLS</h2>
+                <h2>$48.00</h2>
+                <div class="product_1_description">
+                    <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. 
+                    Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.</p>
+                </div>
+                <a href="#products">LEARN MORE</a>
+                <a href="#products">
+                    <button>ADD TO CART</button>
+                </a>
+            </div>
+            <div class="product_2">
+                <a href="#products">
+                    <img src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="set of one big and two small bowls" style="width: 398px; height: 398px;">
+                </a>
+                <h2>NATUREZA VASE</h2>
+                <h2>$39.00</h2>
+                <div class="product_2_description">
+                    <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. 
+                    Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.</p>
+                </div>
+                <a href="#products">LEARN MORE</a>
+                <a href="#products">
+                    <button>ADD TO CART</button>
+                </a>
+            </div>
+            <div class="product_3">
+                <a href="#products">
+                    <img src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="set of one big and two small bowls" style="width: 398px; height: 398px;">
+                </a>
+                <h2>FEIRA BOWLS</h2>
+                <h2>$29.00</h2>
+                <div class="product_3_description">
+                    <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. 
+                    Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.</p>
+                </div>
+                <a href="#products">LEARN MORE</a>
+                <a href="#products">
+                    <button>ADD TO CART</button>
+                </a>
+            </div>
+            <div class="product_4">
+                <a href="#products">
+                    <img src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="set of one big and two small bowls" style="width: 398px; height: 398px;">
+                </a>
+                <h2>NATUREZA POTS</h2>
+                <h2>$59.00</h2>
+                <div class="product_4_description">
+                    <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. 
+                    Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.</p>
+                </div>
+                <a href="#products">LEARN MORE</a>
+                <a href="#products">
+                    <button>ADD TO CART</button>
+                </a>
+            </div>
+            <div class="product_5">
+                <a href="#products">
+                    <img src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="set of one big and two small bowls" style="width: 398px; height: 398px;">
+                </a>
+                <h2>PEDRA VASE</h2>
+                <h2>$31.00</h2>
+                <div class="product_5_description">
+                    <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. 
+                    Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.</p>
+                </div>
+                <a href="#products">LEARN MORE</a>
+                <a href="#products">
+                    <button>ADD TO CART</button>
+                </a>
+            </div>
+            <div class="product_6">
+                <a href="#products">
+                    <img src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="set of one big and two small bowls" style="width: 398px; height: 398px;">
+                </a>
+                <h2>VIAJA POTS</h2>
+                <h2>$57.00</h2>
+                <div class="product_6_description">
+                    <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. 
+                    Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.</p>
+                </div>
+                <a href="#products">LEARN MORE</a>
+                <a href="#products">
+                    <button>ADD TO CART</button>
+                </a>
+            </div>
+            <div class="product_7">
+                <a href="#products">
+                    <img src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="set of one big and two small bowls" style="width: 398px; height: 398px;">
+                </a>
+                <h2>SERVIÇO PLATES</h2>
+                <h2>$35.00</h2>
+                <div class="product_7_description">
+                    <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. 
+                    Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.</p>
+                </div>
+                <a href="#products">LEARN MORE</a>
+                <a href="#products">
+                    <button>ADD TO CART</button>
+                </a>
+            </div>
+            <div class="product_8">
+                <a href="#products">
+                    <img src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="set of one big and two small bowls" style="width: 398px; height: 398px;">
+                </a>
+                <h2>CAMPEÃO VASE</h2>
+                <h2>$37.00</h2>
+                <div class="product_8_description">
+                    <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. 
+                    Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.</p>
+                </div>
+                <a href="#products">LEARN MORE</a>
+                <a href="#products">
+                    <button>ADD TO CART</button>
+                </a>
+            </div>
+            <div class="product_9">
+                <a href="#products">
+                    <img src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="set of one big and two small bowls" style="width: 398px; height: 398px;">
+                </a>
+                <h2>TROCA BOWLS</h2>
+                <h2>$25.00</h2>
+                <div class="product_9_description">
+                    <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. 
+                    Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.</p>
+                </div>
+                <a href="#products">LEARN MORE</a>
+                <a href="#products">
+                    <button>ADD TO CART</button>
+                </a>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>CONTACT US</h1>
+            <dev class="email">
+                <h2>EMAIL</h2>
+                <input type="text">
+            </dev>
+            <dev class="message">
+                <h2>MESSAGE</h2>
+                <input type="text">
+            </dev>
+            <a href="">
+                <button type="submit">SEND</button>
+            </a>
         </section>
     </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <footer>
-        ©Copyright 2015 - 2020
+        <a href="#home">
+            <img src="./assets/icons8-youtube-96.png">
+        </a>
+        <a href="#home">
+            <img src="./assets/icons8-facebook-96 (1).png">
+        </a>
+        <a href="#home" style="text-decoration:none; color: black;">
+            <div class="title">
+                <h2>CARA</h2>
+                <img src="./assets/icons8-pottery-96 (1).png">
+                <h2>CARA</h2>
+            </div>
+        </a>
+        <a href="#home">
+            <img src="./assets/icons8-twitter-96.png">
+        </a>
+        <a href="#home">
+            <img src="./assets/icons8-instagram-96.png">
+        </a>
+        <div class="footer_notes">
+            <div>
+                Pretium nibh ipsum consequat nisl vel pretium.
+            </div>
+            <div>
+                Amet tellus cras adipiscing enim eu turpis.
+            </div>
+            <div>
+                ©Copyright 2015 - 2020
+            </div>
+        </div>
     </footer>
 </body>
 </html>
